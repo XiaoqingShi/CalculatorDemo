@@ -136,6 +136,7 @@ public class MainActivity extends Activity implements OnClickListener{
             clear_flag=false;
             return;
         }
+        int i;
         clear_flag=true;
         double result=0;
         String s1=exp.substring(0,exp.indexOf(" "));
